@@ -21,7 +21,7 @@ const Navbar = () => {
             {navItems.map((section) => (
               <a
                 key={section}
-                href={#${section}}
+                href={`#${section}`}
                 className="capitalize text-sm font-medium hover:text-cyan-400 hover:underline underline-offset-4 transition duration-300"
               >
                 {section}
@@ -51,7 +51,7 @@ const Navbar = () => {
             {navItems.map((section) => (
               <a
                 key={section}
-                href={#${section}}
+                href={`#${section}`}
                 className="capitalize text-sm font-medium text-white hover:text-cyan-400 transition duration-300"
                 onClick={() => setIsOpen(false)} // Close menu on click
               >
